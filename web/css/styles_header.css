@@ -1,0 +1,110 @@
+*{
+    margin:0;padding: 0;
+}
+@font-face {
+  font-family: 'Noto Sans', sans-serif;  
+  src: url("../Fonts/Noto_Sans/NotoSans-Bold.ttf");
+}   
+
+body{
+    background: #F2F2D7;
+    font-family: 'Noto Sans', sans-serif;  
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+        background: #ffffff;
+	margin-bottom:20px;
+        font-family: 'Noto Sans', sans-serif;  
+}
+
+.wrapper {
+	
+}
+
+header .logo {
+	color:#ffffff;
+	font-size:50px;
+        background: #999900;
+        padding-left: 20px;
+        padding-right: 0px;
+}
+
+header .logo img{
+	  width: 5%;
+          height:3%;
+          padding-bottom: 15px;
+}
+/*
+header nav {
+	
+	line-height:90px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:1px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+        border-radius:50px;
+}
+*/
+header nav a:hover {
+    
+	
+}
+/*header numero 2*/
+.header2 {
+	position: fixed;
+	height:100px;
+}
+ 
+.header2 .logo {
+	line-height:100px;
+	font-size:30px;
+}
+ 
+.header2 nav {
+	line-height:100px;
+}
+
+#container-first{
+    margin-top: 250px;
+}
+/*Media responsive*/
+@media screen and (max-width: 950px) {
+	header,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:15px;
+                
+                
+	}
+        header .logo img{
+          margin-top: 15px;
+	  width: 5%;
+          height:3%;
+          padding-bottom: 15px;
+          
+        }
+        header .logo {
+          font-size: 15px;
+          
+        }
+	.header2 {
+		height:auto;
+	}
+ 
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}

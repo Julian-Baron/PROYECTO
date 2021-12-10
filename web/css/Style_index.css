@@ -1,0 +1,33 @@
+
+
+/**imagen principal que se presentara al inicio de pantalla**/
+
+.img-principal{
+    border-bottom: 35px solid transparent;
+}
+
+
+/**Posicion de imagen de el index**/
+.contenedor{
+    position:relative;
+    display:inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centrado-abajo{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 125px;
+   
+}
